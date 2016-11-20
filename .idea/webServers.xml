@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6cb07dae-efc8-46e2-a548-46e9e9603de3" name="Kevinf" url="http://kevinf.simplon-epinal.tk">
+        <fileTransfer host="kevinf.simplon-epinal.tk" port="21" username="kevinf">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

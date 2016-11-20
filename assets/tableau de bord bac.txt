@@ -1,0 +1,37 @@
+jour 1 : 
+l'objectif est de creer une page index contenant la liste des articles/videos ajoutées
+creer une barre de navigation (dont certains onglets ne sont disponibles qu'en tant qu'admin (Espace admin) ou bien qu'en tant que membre/admin (profil))
+creer une page admin permettant de modifier ajouter supprimer des categories/roles/users/articles
+creer des log ins et distribuer des droits en fonction du status de la personne connectée (admin/membre/autre)
+pouvoir trier par categorie les articles/videos ajoutées
+faire une pagination
+
+
+jour 2 :
+creer une pop up pour les log-in
+creer une page de profil contenant les infos des utilisateurs ajoutable modifiable supprimable,
+afficher les articles/video sous forme de liste (check un template sur freecss pour trouver une page profil)
+
+jour 3 : 
+page profil en cours, structure html et reaffichages des $_SESSION fait!
+objectif rendre le profilemodifiable/supprimable
+
+jour 4:
+page de profile modifiable/deletable fonctionelle
+faire en sort d'afficher les commentaires personels
+faire une pop up de confirmation de suppression/modification
+faire un bouton deroulant publie/non publie pour chnager l'etat d'un article (video)
+upload image
+
+jour 5:
+faire en sorte de pouvoir poster des commentaires 
+commentaires de l'user reaffichés dans le profil et modifiable/deletable
+lier une vignette a une page de details
+
+
+  
+RENDRE POLITIQUEMENT CORRECT LES PLACEHOLDER DYNAMIQUE ok
+FAIRE UN BOUTON REMONTER EN HAUT DE PAGE ok
+NAVBAR FIXED AU SCROLL ok
+AFFICHER LES DIVS AVEC UN FONDU , ANIMER
+RENDRE RESPONSIVE
