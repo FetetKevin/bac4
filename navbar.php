@@ -109,16 +109,24 @@
 </div>
 
 
-<div>
-    <?php
-    //if($_SESSION['logged']){
-      //  echo $_SESSION['prenom'] . ' ' . $_SESSION['nom'] . ' est connecté en tant que "' . $_SESSION['nom_role'] . '" .';
-    //}else{
-      //  echo "vous n'êtes pas connecté !";
-    //}
+    <div class="container">
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <h5 class="text-center"><?php if($_SESSION['logged']){ echo'Bienvenue !';} else { echo 'Connectez-vous';}; ?></h5>
+            </div>
+            <div class="panel-body">
+                <?php
+    if($_SESSION['logged']){
+        echo strtoupper($_SESSION['prenom']) . ' ' . strtoupper($_SESSION['nom']) . ' est connecté en tant que [' . strtoupper($_SESSION['nom_role']) . '] .';
+    }else{
+        echo "vous n'êtes pas connecté !";
+    }
     //var_dump($_SESSION);
     ?>
-</div>
+            </div>
+        </div>
+    </div>
+
 <script>
     <?php include('custom.js'); ?>
 </script>

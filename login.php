@@ -72,8 +72,8 @@ if (isset($_POST) && (!empty($_POST['login'])) && (!empty($_POST['pass'])) ) {
             <section>
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-8 col-xs-12 col-md-offset-2" id="panelLogin">
-                            <h4><span>Connectez-vous !</span></h4>
+                        <div class="col-md-5 col-xs-12">
+                            <h1><span>Connectez-vous !</span></h1>
                         </div>
                     </div>
                 </div>

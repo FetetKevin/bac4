@@ -62,7 +62,6 @@ else {
 
 <body>
 <?php include('navbar.php'); ?>
-<h1>Bienvenu sur votre page de profil <?= $_SESSION["nom"].' '.$_SESSION['prenom']; ?>!</h1>
 
 <?php
 //Connection Bdd

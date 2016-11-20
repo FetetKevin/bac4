@@ -5,9 +5,6 @@ html {
 body {
     background: url('http://img0.mxstatic.com/wallpapers/8a5191d30ae878c24a14db74385ce07c_large.jpeg');
     background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding:0;
 }
 h1{
 
@@ -20,7 +17,11 @@ h3 {
 
 }
 h4{
-
+color: black;
+    text-decoration: underline;
+}
+h5 {
+    color:black;
 }
 p {
 
